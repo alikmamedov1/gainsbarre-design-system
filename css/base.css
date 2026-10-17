@@ -1,0 +1,48 @@
+/* ==========================================================================
+   base.css — Police (Google Fonts) et styles de base des éléments HTML
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html {
+  font-size: 100%; /* 1rem = 16px : respecte le réglage du navigateur */
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+}
+
+h1 { font-size: var(--font-size-h1-mobile); }
+h2 { font-size: var(--font-size-h2); }
+h3 { font-size: var(--font-size-h3); }
+
+@media (min-width: 48em) {
+  h1 { font-size: var(--font-size-h1); }
+}
+
+strong,
+b {
+  font-weight: var(--font-weight-bold);
+}
+
+a {
+  color: inherit;
+}
+
+/* Focus clavier : visible sur tous les éléments interactifs */
+:focus-visible {
+  outline: var(--outline-width) solid var(--color-black);
+  outline-offset: var(--outline-offset);
+}

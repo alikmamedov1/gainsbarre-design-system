@@ -1,0 +1,26 @@
+/* ==========================================================================
+   global.css — Ordre des couches (cascade layers) + imports
+   Seul fichier à lier dans index.html : il charge tout le reste.
+   ========================================================================== */
+
+@layer variables, reset, base, components, utilities;
+
+@import url("variables.css") layer(variables);
+@import url("reset.css") layer(reset);
+@import url("base.css") layer(base);
+@import url("../style.css") layer(components);
+
+@layer utilities {
+  /* Texte accessible aux lecteurs d’écran uniquement */
+  .visually-hidden {
+    position: absolute;
+    inline-size: 0.0625rem;
+    block-size: 0.0625rem;
+    margin: -0.0625rem;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+  }
+}

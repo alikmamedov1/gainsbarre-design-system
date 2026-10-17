@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design System - Gainsbarre</title>
+  <meta name="description"
+    content="Mes 22 composants de Gainsbarre">
+  <link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+  <main class="ds-page">
+    <h1 class="ds-page__title">Mes Composants</h1>
+
+    <!-- Structure et navigation -->
+    <section class="ds-section" aria-labelledby="ds-structure">
+      <h2 class="ds-section__title" id="ds-structure">Structure et navigation</h2>
+      <div class="ds-section__content">
+
+        <!-- 01 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">1</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>site-header</code> - <code>--desktop</code></p>
+            <div class="ds-item__demo">
+              <header class="site-header site-header--desktop ds-fill">
+                <a class="site-header__logo" href="#"><img class="logo-primary" src="assets/logo-primary.svg"
+                    alt="Maison Gainsbourg" width="442" height="20"></a>
+                <nav class="site-header__nav" aria-label="Navigation principale">
+                  <ul class="site-header__list">
+                    <li><a class="site-header__link" href="#">Carte</a></li>
+                    <li><a class="site-header__link" href="#">Retrait</a></li>
+                    <li><a class="site-header__link" href="#">Mon compte</a></li>
+                    <li><a class="site-header__link site-header__cart" href="#"><img src="assets/icon-cart.svg" alt=""
+                          width="16" height="16"><span>0 - 0,00 €</span></a></li>
+                  </ul>
+                </nav>
+              </header>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">2</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>site-header</code> — <code>--mobile</code></p>
+            <div class="ds-item__demo">
+              <header class="site-header site-header--mobile ds-frame--mobile">
+                <a class="site-header__logo" href="#"><img class="logo-primary logo-primary--small"
+                    src="assets/logo-primary-mobile.svg" alt="Maison Gainsbourg" width="252" height="12"></a>
+                <button class="site-header__menu-button" type="button" aria-label="Ouvrir le menu"><img
+                    src="assets/icon-burger.svg" alt="" width="25" height="17"></button>
+              </header>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">3</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>site-footer</code> — <code>--desktop</code></p>
+            <div class="ds-item__demo">
+              <footer class="site-footer site-footer--desktop ds-fill">
+                <div class="site-footer__column">
+                  <h3 class="site-footer__title">Maison Gainsbourg</h3>
+                  <address class="site-footer__text">14 rue de Verneuil<br>75007 Paris</address>
+                </div>
+                <nav class="site-footer__column" aria-label="Informations légales">
+                  <h3 class="site-footer__title">Mentions légales</h3>
+                  <ul class="site-footer__list">
+                    <li><a class="site-footer__link" href="#">CGV</a></li>
+                    <li><a class="site-footer__link" href="#">Politique de confidentialité</a></li>
+                  </ul>
+                </nav>
+                <div class="site-footer__column">
+                  <h3 class="site-footer__title">Newsletter</h3>
+                  <p class="site-footer__text"><a href="#">Inscrivez-vous</a> à notre newsletter pour recevoir nos
+                    actualités</p>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <!-- 04 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">4</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>site-footer</code> — <code>--mobile</code></p>
+            <div class="ds-item__demo">
+              <footer class="site-footer">
+                <div class="site-footer__column">
+                  <h3 class="site-footer__title">Maison Gainsbourg</h3>
+                  <address class="site-footer__text">14 rue de Verneuil<br>75007 Paris</address>
+                </div>
+                <nav class="site-footer__column" aria-label="Informations légales (mobile)">
+                  <h3 class="site-footer__title">Mentions légales</h3>
+                  <ul class="site-footer__list">
+                    <li><a class="site-footer__link" href="#">CGV</a></li>
+                    <li><a class="site-footer__link" href="#">Politique de confidentialité</a></li>
+                  </ul>
+                </nav>
+                <div class="site-footer__column">
+                  <h3 class="site-footer__title">Newsletter</h3>
+                  <p class="site-footer__text"><a href="#">Inscrivez-vous</a> à notre newsletter pour recevoir nos
+                    actualités</p>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">5</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>logo-primary</code></p>
+            <div class="ds-item__demo">
+              <img class="logo-primary" src="assets/logo-primary.svg" alt="Maison Gainsbourg" width="442" height="20">
+            </div>
+          </div>
+        </div>
+
+        <!-- 06 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">6</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>logo-secondary</code></p>
+            <div class="ds-item__demo">
+              <img class="logo-secondary" src="assets/logo-secondary.svg" alt="Maison Gainsbourg signature"
+                width="433" height="266">
+            </div>
+          </div>
+        </div>
+
+        <!-- 07 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">7</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>divider</code></p>
+            <div class="ds-item__demo ds-fill">
+              <hr class="divider ds-fill">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Actions et saisie -->
+    <section class="ds-section" aria-labelledby="ds-actions">
+      <h2 class="ds-section__title" id="ds-actions">Actions et saisie</h2>
+      <div class="ds-section__content">
+
+        <!-- 08 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">8</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>button</code></p>
+            <div class="ds-item__demo">
+              <button class="button" type="button">Ajouter au panier</button>
+              <a class="button" href="#">Choisir les options</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 09 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">9</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>link-more</code></p>
+            <div class="ds-item__demo"><a class="link-more" href="#">Voir toute la carte</a></div>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">10</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>quantity-stepper</code></p>
+            <div class="ds-item__demo">
+              <div class="quantity-stepper" role="group" aria-label="Quantité">
+                <button class="quantity-stepper__button" type="button" aria-label="Diminuer">-</button>
+                <input class="quantity-stepper__value" type="text" inputmode="numeric" value="1" aria-label="Quantité"
+                  readonly>
+                <button class="quantity-stepper__button" type="button" aria-label="Augmenter">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">11</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>filter-chip</code> - <code>--active</code></p>
+            <ul class="filter-chip-group" aria-label="Filtrer par catégorie">
+              <li><a class="filter-chip filter-chip--active" href="#" aria-current="true">Tout</a></li>
+              <li><a class="filter-chip" href="#">Cocktails</a></li>
+              <li><a class="filter-chip" href="#">Vins</a></li>
+              <li><a class="filter-chip" href="#">À manger</a></li>
+              <li><a class="filter-chip" href="#">Sans alcool</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 12 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">12</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>sort-select</code></p>
+            <div class="ds-item__demo">
+              <label class="visually-hidden" for="sort-demo">Trier les produits</label>
+              <select class="sort-select" id="sort-demo">
+                <option>Tri par défaut</option>
+                <option>Prix croissant</option>
+                <option>Prix décroissant</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- 13 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">13</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>pagination</code> — <code>--current</code></p>
+            <nav aria-label="Pagination">
+              <ul class="pagination">
+                <li><a class="pagination__link" href="#" aria-label="Page précédente" aria-disabled="true"><img
+                      src="assets/icon-triangle-left.svg" alt="" width="8" height="14"></a></li>
+                <li><a class="pagination__link pagination__link--current" href="#" aria-current="page">1</a></li>
+                <li><a class="pagination__link" href="#">2</a></li>
+                <li><a class="pagination__link" href="#">3</a></li>
+                <li><a class="pagination__link" href="#" aria-label="Page suivante"><img
+                      src="assets/icon-triangle-right.svg" alt="" width="8" height="14"></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produit -->
+    <section class="ds-section" aria-labelledby="ds-produit">
+      <h2 class="ds-section__title" id="ds-produit">Produit</h2>
+      <div class="ds-section__content">
+
+        <!-- 14 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">14</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>product-card</code></p>
+            <div class="ds-item__demo">
+              <article class="product-card">
+                <a class="product-card__media" href="#" tabindex="-1" aria-hidden="true"><img
+                    class="product-card__image" src="assets/product-fameux-gibson.svg" alt="" width="315"
+                    height="393"></a>
+                     <p class="availability-tag product-card__availability">Midi - Soir</p>
+                <div class="product-card__body">
+                  <h3 class="product-card__title"><a href="#">Le Fameux Gibson</a></h3>
+                  <p class="product-card__description">Gin dry, vermouth dry, saumure</p>
+                  <p class="product-card__price">18 €</p>
+                  <div class="product-card__action"><button class="button" type="button">Ajouter au panier</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- 15 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">15</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>product-card</code> — <code>--with-options</code>
+            </p>
+            <div class="ds-item__demo">
+              <article class="product-card product-card--with-options">
+                <a class="product-card__media" href="#" tabindex="-1" aria-hidden="true">
+                  <img class="product-card__image" src="assets/product-sancerre.svg" alt="" width="315" height="393">
+                </a>
+                <p class="availability-tag product-card__availability">Midi - Soir</p>
+                <div class="product-card__body">
+                  <h3 class="product-card__title"><a href="#">Sancerre</a></h3>
+                  <p class="product-card__description">Terre de Maimbray 2024</p>
+                  <p class="product-card__price">dès 17 €</p>
+                  <p class="product-card__meta">Verre 14 cl, bouteille 75 cl</p>
+                  <div class="product-card__action"><a class="button" href="#">Choisir les options</a></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- 16 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">16</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>details-tabs</code></p>
+            <ul class="details-tabs" aria-label="Détails du produit">
+              <li><a class="details-tabs__tab" href="#description" aria-current="true">Description</a></li>
+              <li><a class="details-tabs__tab" href="#informations">Informations complémentaires</a></li>
+              <li><a class="details-tabs__tab" href="#avis">Avis</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accueil et Retrait -->
+    <section class="ds-section" aria-labelledby="ds-accueil">
+      <h2 class="ds-section__title" id="ds-accueil">Accueil et Retrait</h2>
+      <div class="ds-section__content">
+
+        <!-- 17 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">17</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>hero</code></p>
+            <section class="hero" aria-labelledby="hero-title">
+              <h2 class="hero__title" id="hero-title">Commandez, retirez au bar.</h2>
+              <p class="hero__text">Restaurant et bar à cocktails de la Maison Gainsbourg.<br>Choisissez en ligne,
+                récupérez sur place.</p>
+              <div class="hero__actions">
+                <a class="hero__cta" href="#">Voir la carte</a>
+                <a class="hero__cta hero__cta--secondary" href="#">Retrait et horaires</a>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- 18 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">18</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>availability-notice</code></p>
+            <div class="ds-item__demo">
+              <p class="availability-notice">Ce midi : crème crue, tarama fumé</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 19 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">19</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>section-nav</code></p>
+            <nav aria-label="Rubriques de la carte">
+              <ul class="section-nav">
+                <li><a class="section-nav__link" href="#">Cocktails</a></li>
+                <li><a class="section-nav__link" href="#">À manger</a></li>
+                <li><a class="section-nav__link" href="#">Sans alcool</a></li>
+                <li><a class="section-nav__link" href="#">Vins</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <!-- 20 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">20</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>how-it-works</code></p>
+            <ol class="how-it-works">
+              <li class="how-it-works__step">
+                <h3 class="how-it-works__title">1. Choisissez</h3>
+                <p class="how-it-works__text">Parcourez la carte du midi ou du soir.</p>
+              </li>
+              <li class="how-it-works__step">
+                <h3 class="how-it-works__title">2. Commandez</h3>
+                <p class="how-it-works__text">Payez en ligne ou au retrait.</p>
+              </li>
+              <li class="how-it-works__step">
+                <h3 class="how-it-works__title">3. Retirez</h3>
+                <p class="how-it-works__text">Au bar, 14 rue de Verneuil, sans attendre.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- 21 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">21</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>pickup-notice</code></p>
+            <div class="ds-item__demo">
+              <p class="pickup-notice">Retrait gratuit au 14 rue de Verneuil</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 22 -->
+        <div class="ds-item">
+          <span class="ds-item__number" aria-hidden="true">22</span>
+          <div class="ds-item__body">
+            <p class="ds-item__name"><code>pickup-details</code></p>
+            <section class="pickup-details" aria-label="Retrait et horaires">
+              <h3 class="pickup-details__address">14 Rue de Verneuil, 75007 Paris</h3>
+              <p>Retrait gratuit. Pièce d'identité demandée pour les boissons alcoolisées (18 ans et plus)</p>
+              <table class="pickup-details__hours">
+                <caption class="visually-hidden">Horaires d'ouverture</caption>
+                <tbody>
+                  <tr><th scope="row">Lundi</th><td>Fermé</td></tr>
+                  <tr><th scope="row">Mardi</th><td>10h - minuit</td></tr>
+                  <tr><th scope="row">Mercredi</th><td>10h - minuit</td></tr>
+                  <tr><th scope="row">Jeudi</th><td>10h - 2h</td></tr>
+                  <tr><th scope="row">Vendredi</th><td>10h - 2h</td></tr>
+                  <tr><th scope="row">Samedi</th><td>10h - 2h</td></tr>
+                  <tr><th scope="row">Dimanche</th><td>10h - 20h</td></tr>
+                </tbody>
+              </table>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
